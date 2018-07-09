@@ -9,17 +9,41 @@ body {
 .header {
   text-align: center;
   font-family: 'Gaegu', cursive;
-  font-size: 100px;
+  font-size: 150px;
+  color: white;
 }
 .game {
-  height: 350px;
+  height: 850px;
   width: 1000px;
   box-sizing: content-box;
   border-radius: 10px;
   border-spacing: 50px;
-  background-color: white;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
   position: absolute;
   bottom: 40%;
   top: 30%;
-  position: absolute;
+  text-align: center;
+  left: 160px;
+}
+.active-1 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 50px;
+  color: white;
+
+}
+.active-2 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 50px;
+  color: white;
+}
+.current-label {
+  background-color: #ff628e;
+  color: white;
+  background-size: auto;
+}
+.pig-png {
+  size: 100px;
 }
