@@ -1,12 +1,20 @@
-/*var scores, roundScore, activePlayer, dice;
+//BackEnd
+function Pig(globalScore, roundScore, tempScore) {
+  this.globalScore = 0;
+  this.roundScore = 0;
+  this.tempScore = 0;
+}
 
-scores = [0,0];
-roundScore = 0;
-activePlayer = 0;
+var tempScore = Math.floor(Math.random() * 6) + 1;
+var roundScore = tempScore + tempScore;
+var globalScore = roundScore + roundScore;
 
-dice = Math.floor(Math.random() * 6) + 1;
+//FrontEnd
 
-$(document).ready(function(event){
-  $(".current-score#current-0").textContent = dice;
+$(document).ready(function() {
+  $("#roll-dice").click(function() {
+    $("#score-0"); return tempscore();
 
-});*/
+
+  });
+});
