@@ -1,3 +1,25 @@
 body {
-  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4), url("../img/piggy.jpg"));
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url("../img/pig1.jpg");
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  color: #555;
+}
+.header {
+  text-align: center;
+  font-family: 'Gaegu', cursive;
+  font-size: 100px;
+}
+.game {
+  height: 350px;
+  width: 1000px;
+  box-sizing: content-box;
+  border-radius: 10px;
+  border-spacing: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 40%;
+  top: 30%;
+  position: absolute;
 }
